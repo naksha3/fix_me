@@ -15,6 +15,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.temp{
+    border-radius: 2em;
+}
 </style>
 <body class="w3-black">
 
@@ -138,9 +141,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input disabled class="w3-input w3-padding-16" type="text" placeholder="I'm Email section, please enable me :(" required name="Email"></p>
+      <p><input  class="w3-input w3-padding-16" type="text" placeholder="I'm Email section, please enable me :(" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="w3-input w3-padding-16 temp" typee="file" placeholder="make me choose a file not some text :[" required name="Message"></p>
       <p>
         <button class="w3-button w3-light-grey w3-section" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MASSAGE
